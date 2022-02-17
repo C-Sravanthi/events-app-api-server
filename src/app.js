@@ -12,7 +12,7 @@ const eventRouter = require('./routes/event');
 const configRouter = require('./routes/config');
 
 const app = express();
-
+//Make changes
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
